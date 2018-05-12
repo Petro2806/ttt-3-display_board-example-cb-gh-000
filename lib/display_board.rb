@@ -4,7 +4,8 @@ board=[]
 def display_board
   ind=0
     puts "#{board[i]} | #{board[i+1]} | #{board[i+2]}"
-    
+
     i=i+3
 
 end
+display_board
