@@ -5,7 +5,7 @@ def display_board
   ind=0
   3.times
   {
-    res="#{board[i]}|#{board[i+1]}|#{board[i+2]}"
+    res="#{board[i]} | #{board[i+1]} | #{board[i+2]}"
     puts ret
     i=i+3
   }
