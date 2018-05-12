@@ -2,5 +2,10 @@
 board=[]
 9.times {board<<" "}
 def display_board
-
+  ind=0
+  3.times
+  {
+    puts "#{board[i]}|#{board[i+1]}|#{board[i+2]}"
+    i=i+3
+  }
 end
